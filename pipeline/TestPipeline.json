@@ -16,7 +16,7 @@
 				"userProperties": [],
 				"typeProperties": {
 					"command": {
-						"value": "python main .py",
+						"value": "python main.py",
 						"type": "Expression"
 					},
 					"resourceLinkedService": {
