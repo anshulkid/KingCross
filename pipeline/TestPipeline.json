@@ -1,6 +1,40 @@
 {
 	"name": "TestPipeline",
 	"properties": {
+		"activities": [
+			{
+				"name": "Custom1",
+				"type": "Custom",
+				"dependsOn": [],
+				"policy": {
+					"timeout": "7.00:00:00",
+					"retry": 0,
+					"retryIntervalInSeconds": 30,
+					"secureOutput": false,
+					"secureInput": false
+				},
+				"userProperties": [],
+				"typeProperties": {
+					"command": {
+						"value": "python main.py",
+						"type": "Expression"
+					},
+					"resourceLinkedService": {
+						"referenceName": "AzureBlobStorage1",
+						"type": "LinkedServiceReference"
+					},
+					"folderPath": "testpython",
+					"referenceObjects": {
+						"linkedServices": [],
+						"datasets": []
+					}
+				},
+				"linkedServiceName": {
+					"referenceName": "PoolLinkedService",
+					"type": "LinkedServiceReference"
+				}
+			}
+		],
 		"annotations": []
 	}
 }
