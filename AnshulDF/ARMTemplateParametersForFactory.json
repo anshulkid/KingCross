@@ -15,7 +15,7 @@
 			"value": "https://anshulbatch.eastus.batch.azure.com"
 		},
 		"PoolLinkedService_properties_typeProperties_poolName": {
-			"value": "demopool"
+			"value": "anshuldemo"
 		},
 		"PoolLinkedService_properties_typeProperties_accountName": {
 			"value": "anshulbatch"

@@ -21,7 +21,7 @@
 		},
 		"PoolLinkedService_properties_typeProperties_poolName": {
 			"type": "string",
-			"defaultValue": "demopool"
+			"defaultValue": "anshuldemo"
 		},
 		"PoolLinkedService_properties_typeProperties_accountName": {
 			"type": "string",
